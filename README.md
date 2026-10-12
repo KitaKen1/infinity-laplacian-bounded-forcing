@@ -16,7 +16,7 @@ The interior regularity assertion considered here allows general bounded forcing
 > ```math
 > \|Du\|_{L^\infty(B_{R/2}(x_0))}
 > +R^{\alpha_d}[Du]_{C^{0,\alpha_d}(B_{R/2}(x_0))}
-> \le C_d\left(\frac{\operatorname{osc}_{B_R(x_0)}u}{R}+(RM)^{1/3}\right).
+> \le C_d\left(\frac{\mathrm{osc}_{B_R(x_0)}u}{R}+(RM)^{1/3}\right).
 > ```
 
 Here the viscosity bound means that every upper $`C^2`$ test satisfies $`\Delta_\infty\phi\ge-M`$, and every lower test satisfies $`\Delta_\infty\phi\le M`$. Tests with zero gradient are included. In particular, the theorem applies to continuous right-hand sides $`f`$ with $`\|f\|_\infty\le M`$, without a modulus of continuity in the estimate. The constants depend only on the dimension.
@@ -109,7 +109,7 @@ Rigidity implies $`b(s)\le Bs^\gamma`$ for some $`0<\gamma\le1`$. The affine fit
 Comparing these remainders at two centers proves Hölder continuity of the gradient. Rescaling with
 
 ```math
-A=\operatorname{osc}_{B_R(x_0)}u+R^{4/3}M^{1/3}
+A=\mathrm{osc}_{B_R(x_0)}u+R^{4/3}M^{1/3}
 ```
 
 gives the stated estimate.
@@ -121,10 +121,10 @@ For $`\Delta_\infty^{\mathrm N}u=\langle D^2u\,Du,Du\rangle/|Du|^2`$, the same e
 ```math
 \|Du\|_{L^\infty(B_{R/2}(x_0))}
 +R^{\alpha_d}[Du]_{C^{0,\alpha_d}(B_{R/2}(x_0))}
-\le C_d\left(\frac{\operatorname{osc}_{B_R(x_0)}u}{R}+RM\right).
+\le C_d\left(\frac{\mathrm{osc}_{B_R(x_0)}u}{R}+RM\right).
 ```
 
-At zero gradient, the upper-test convention is $`\lambda_{\max}(D^2\phi)\ge-M`$ and the lower-test convention is $`\lambda_{\min}(D^2\phi)\le M`$. A normalized cone comparison first bounds the Lipschitz constant by $`L_0\lesssim\operatorname{osc}u/R+RM`$. The function then satisfies the unnormalized bound $`|\Delta_\infty u|\le ML_0^2`$, to which the main theorem applies.
+At zero gradient, the upper-test convention is $`\lambda_{\max}(D^2\phi)\ge-M`$ and the lower-test convention is $`\lambda_{\min}(D^2\phi)\le M`$. A normalized cone comparison first bounds the Lipschitz constant by $`L_0\lesssim\mathrm{osc}u/R+RM`$. The function then satisfies the unnormalized bound $`|\Delta_\infty u|\le ML_0^2`$, to which the main theorem applies.
 
 ## Detailed manuscript
 
